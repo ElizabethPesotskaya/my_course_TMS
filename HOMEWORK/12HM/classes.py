@@ -65,3 +65,4 @@ class Library:
         if not self.books:
             return " Библиотека пуста."
         return f" Библиотека содержит {len(self.books)} книг:\n" + "\n".join(str(book) for book in self.books)
+# Добавлен комментарий для коммита

@@ -26,3 +26,4 @@ for book in library.find_by_author("Пушкин А.С."):
 print("Поиск книг от авторов: Пушкин А.С.")
 for book in library.find_by_author(["Пушкин А.С.", "Гоголь М.Ю."]):
     print(book)
+# Добавлен комментарий для коммита
